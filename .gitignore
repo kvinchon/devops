@@ -1,6 +1,24 @@
 
-# Created by https://www.gitignore.io/api/macos,linux,windows,terraform
-# Edit at https://www.gitignore.io/?templates=macos,linux,windows,terraform
+# Created by https://www.gitignore.io/api/go,macos,linux,windows,terraform
+# Edit at https://www.gitignore.io/?templates=go,macos,linux,windows,terraform
+
+### Go ###
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, build with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+### Go Patch ###
+/vendor/
+/Godeps/
 
 ### Linux ###
 *~
@@ -98,6 +116,7 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+# Environnement
 environnement.go
 
-# End of https://www.gitignore.io/api/macos,linux,windows,terraform
+# End of https://www.gitignore.io/api/go,macos,linux,windows,terraform
